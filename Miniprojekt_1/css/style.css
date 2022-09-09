@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-style: italic;
+}
+
+body{
+    background-color:#666666;
+}
+
+
+.navbar{
+    background-color: #323232;
+    display:flex;
+    align-items:center;
+    height:2em;
+}
+
+.navbar .list-item:nth-of-type(1){
+    flex-grow:3;
+}
+
+.navbar .list-item, 
+.navbar .list-item a{
+    list-style-type:none;
+    margin: 0 2em;
+}
+.navbar .list-item p,
+.navbar .list-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .list-item a:hover{
+    background-color:grey;
+}
+
+.index-main{
+    background-color: #666666;
+    display:flex;
+    width:auto;
+    height:auto;
+    flex-direction: column;
+}
+
+.name{
+    align-self:center;
+    color:white;
+    margin-top:100px;
+}
+
+.image-frame{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    max-width:300px;
+    /* background-color:green; */
+}
+
+.image-of-me{
+    width:200px;
+    height:200px;
+    object-fit:scale-down;   
+    align-self: center;
+}
+
+figcaption{
+    font-size:17px;
+}
+
+p{
+    color:white;
+}
+
+.main-text{
+   /* background-color:green; */
+    display:flex;
+    max-width:400px;
+    max-height:500px;
+    align-self:center;
+}
+
+.dogs{
+    /* background-color:green; */
+    display:flex;
+    justify-content: space-around;
+    height:194px;
+    align-items:end;
+    margin-top:-20px;
+}
+
+.picture_dog{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+}
+.dog_name{
+    display:flex;
+    align-self:start;
+}
+
+
+/* Insperation */
+.insperation-main{
+    display:flex;
+    flex-direction:column;   
+}
+
+.h2{
+    align-self:center;
+    color:white;
+    margin-top:100px;
+}
+
+.ordered-list a{
+    text-decoration: none;
+    color:white;
+}
+
+.ordered-list a:hover{
+    background-color: grey;
+}
+
+
+.form-main{
+    display:flex;
+    justify-content: center;
+}
+
+.form{
+    background-color:#4c4c4c;
+    height:450px;
+    display:flex;
+    width:800px;
+    margin-top:100px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.groups{
+    max-width:650px;
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+    padding:auto;
+}
+
+.input-group{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size:18px;
+    border: 1px solid black;
+    padding:3px;
+    margin:3px;
+    border-radius:2px;
+}
+
+label{
+    padding-left:4px;
+    color:white;
+}
+
+textarea{
+    width:645px;
+    resize: none;
+}
+
+button{
+    width:90px;
+    margin:auto;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
